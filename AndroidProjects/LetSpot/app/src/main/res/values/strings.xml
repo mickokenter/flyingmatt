@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Lets Spot!</string>
+    <string name="title_activity_maps">Find a Spot</string>
+    <string name="title_activity_a4_plot">A4_plot</string>
+    <string name="title_activity_login_">Login_Activity</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="logout">Logout</string>
+    <string name="loginText">Please login with your Google Account</string>
+    <string name="gotomain">Go to Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Settings">
+        <item>Account Settings</item>
+        <item>Card Details</item>
+        <item>Logout</item>
+    </string-array>
+    <string name="title_activity_red_top_parking">RedTopParking</string>
+    <string name="title_activity_standard_parking">StandardParking</string>
+    <string name="title_activity_drake__tower__garage">Drake_Tower_Garage</string>
+    <string name="title_activity_parking__space__inc">Parking_Space_Inc</string>
+    <string name="title_activity_park_one">ParkOne</string>
+    <string name="title_activity_people_auto">PeopleAuto</string>
+    <string name="title_activity_downtown">Downtown</string>
+    <string name="title_activity_interparking">Interparking</string>
+    <string name="title_activity_impark">Impark</string>
+
+</resources>

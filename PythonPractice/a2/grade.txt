@@ -1,0 +1,69 @@
+Grade: 39.00/50.00
+
+3 Deduction(s):
+
+--------------
+#1: 5.00 points
+Failing test: test_rsv: 
+        @points=5
+        
+Traceback (most recent call last):
+  File "assignments-sol/a2/a2_test.py", line 105, in test_rsv
+    self.assertAlmostEqual(rsv.score({'e': 1., 'd': 1.}, idx)[2], 0.65, 2)
+AssertionError: 0.17609125905568124 != 0.65 within 2 places
+
+source:
+    def test_rsv(self):
+         """
+         @points=5
+         """
+         idx = index.Index(['a b c', 'c d e', 'c e f'])
+         rsv = RSV()
+         self.assertAlmostEqual(rsv.score({'a': 1.}, idx)[1], 0.477, 2)
+         self.assertAlmostEqual(rsv.score({'e': 1., 'd': 1.}, idx)[2], 0.65, 2)
+--------------
+
+--------------
+#2: 3.00 points
+Failing test: test_map: 
+        @points=3
+        
+Traceback (most recent call last):
+  File "assignments-sol/a2/a2_test.py", line 86, in test_map
+    self.assertAlmostEqual(MAP().evaluate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 4, 6, 11, 12, 13, 14, 15, 16, 17]), 0.2, 1)
+  File "students/mickokenter/a2/evaluate.py", line 110, in evaluate
+    return pre / q
+UnboundLocalError: local variable 'pre' referenced before assignment
+
+source:
+    def test_map(self):
+         """
+         @points=3
+         """
+         self.assertAlmostEqual(MAP().evaluate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 4, 6, 11, 12, 13, 14, 15, 16, 17]), 0.2, 1)
+--------------
+
+--------------
+#3: 3.00 points
+Failing test: test_search: 
+        @points=3
+        
+Traceback (most recent call last):
+  File "assignments-sol/a2/a2_test.py", line 132, in test_search
+    result = search(query, scorer, idx)
+  File "students/mickokenter/a2/main.py", line 175, in search
+    scores = scorer.score(index.query_to_vector([s for s in re.split('\s+', query) if s != '' and s != '.']), index)
+NameError: name 're' is not defined
+
+source:
+    def test_search(self):
+         """
+         @points=3
+         """
+         idx = index.Index(['a a b c', 'c d e', 'c e f'])
+         scorer = Cosine()
+         query = 'e'
+         result = search(query, scorer, idx)
+         self.assertListEqual(result, [2, 3])
+--------------
+

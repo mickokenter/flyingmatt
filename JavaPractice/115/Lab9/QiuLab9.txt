@@ -1,0 +1,38 @@
+2.
+Test Case		Output						Tested?
+number1.txt		Enter File Name: numbers1.txt			Yes
+threshold=30		Enter threshold:30
+			FileName:number.txt Threshold:30.0
+			Above Threshold Count=19
+			Press any key to continue. . .
+number1.txt		Enter File Name: numbers1.txt			Yes
+threshold=31		Enter threshold:31
+			FileName:number.txt Threshold:31.0
+			Above Threshold Count=10
+			Press any key to continue. . .
+number1.txt		Enter File Name: numbers1.txt			Yes
+threshold=15		Enter threshold:15
+			FileName:number.txt Threshold:15.0
+			Above Threshold Count=47
+			Press any key to continue. . .
+number1.txt		Enter File Name: numbers1.txt			Yes
+threshold=13.5		Enter threshold:13.5
+			FileName:number.txt Threshold:13.5
+			Above Threshold Count=47
+			Press any key to continue. . .
+
+
+
+3.
+Test Case	Output									Tested?
+days=5		How may days worth of high temperatures do you have to enter? 5		Yes
+day1=95.0	Enter high temperature for day #1: 95.0
+day2=92.0	Enter high temperature for day #1: 92.0
+day3=68.0	Enter high temperature for day #1: 68.0
+day4=72.0	Enter high temperature for day #1: 72.0
+day5=70.0	Enter high temperature for day #1: 70.0
+		The naximum day to day high temperature change is -24.0 and 
+		occured between days 2 and 3
+days=-5 or 0	Your days input cannot be recognized. Please run the program again	Yes
+		and input a POSITIVE integer.
+days=1		Only ONE day's temperature input. NO maximum change.			Yes

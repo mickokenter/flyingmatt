@@ -1,0 +1,24 @@
+﻿<Window x:Class="BingMapsDownloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BingMapsDownloader"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="847.072" Width="1217.756">
+    <Grid Margin="0,0,2,9">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18"><Run Text="Coordinate 1"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16"><Run Text="Latitude 1"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,61,0,0" TextWrapping="Wrap" Text="Longitude 1" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" Text="Coordinate 2" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" Text="Latitude 2" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="10,143,0,0" TextWrapping="Wrap" Text="Longitude 2" VerticalAlignment="Top"/>
+        <TextBox x:Name="lat1" HorizontalAlignment="Left" Height="23" Margin="95,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="47.621"/>
+        <TextBox x:Name="lon1" HorizontalAlignment="Left" Height="23" Margin="95,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="-122.349"/>
+        <TextBox x:Name="lat2" HorizontalAlignment="Left" Height="23" Margin="95,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="47.521"/>
+        <TextBox x:Name="lon2" HorizontalAlignment="Left" Height="23" Margin="95,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="-122.249"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="512" Margin="220,10,0,0" VerticalAlignment="Top" Width="512"/>
+        <Button x:Name="download" Content="Download" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="75" Click="RequestImage_Click"/>
+
+    </Grid>
+</Window>

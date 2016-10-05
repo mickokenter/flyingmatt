@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs442.xqiu12.foodmenu.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Meal Name:"
+        android:id="@+id/textView"
+        android:textColor="#ad6800"
+        android:layout_alignBaseline="@+id/mealName"
+        android:layout_alignBottom="@+id/mealName"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/mealName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="meal name"
+        android:singleLine="true"
+        android:backgroundTint="#c5c5c5"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Meal Price:"
+        android:id="@+id/textView2"
+        android:textColor="#ad6800"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:ems="5"
+        android:id="@+id/mealPrice"
+        android:hint="price"
+        android:singleLine="true"
+        android:numeric="decimal"
+        android:backgroundTint="#c5c5c5"
+        android:layout_below="@+id/mealName"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Spicy Level:"
+        android:id="@+id/textView3"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/mealPrice"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/spicy"
+        android:hint="0-5"
+        android:singleLine="true"
+        android:numeric="integer"
+        android:backgroundTint="#c5c5c5"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/mealPrice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(Scale from 0-5, 0 non-spicy, 5 extreamly spicy)"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:textColor="#34000000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ingredients:"
+        android:id="@+id/textView4"
+        android:textColor="#ad6800"
+        android:layout_alignBaseline="@+id/ingredients"
+        android:layout_alignBottom="@+id/ingredients"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ingredients"
+        android:backgroundTint="#c5c5c5"
+        android:layout_below="@+id/spicy"
+        android:layout_alignStart="@+id/spicy"
+        android:layout_alignEnd="@+id/addMeal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD A NEW MEAL"
+        android:id="@+id/addMeal"
+        android:layout_below="@+id/ingredients"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/myListView"
+        android:background="#e66808"
+        android:textColor="#ffffff" />
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="fill_parent"
+        android:layout_height="149dp"
+        android:background="#f5eedb"
+        android:layout_above="@+id/playOrder"
+        android:layout_below="@+id/addMeal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play order"
+        android:id="@+id/playOrder"
+        android:layout_above="@+id/sumtext"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/reset"
+        android:layout_alignBottom="@+id/playOrder"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Played order total price:"
+        android:id="@+id/sumtext"
+        android:layout_alignTop="@+id/button_order_history"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:id="@+id/sum"
+        android:layout_alignTop="@+id/sumtext"
+        android:layout_alignStart="@+id/clearSum" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Sum"
+        android:id="@+id/clearSum"
+        android:layout_below="@+id/myListView"
+        android:layout_toStartOf="@+id/reset" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order History"
+        android:id="@+id/button_order_history"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/reset" />
+
+</RelativeLayout>

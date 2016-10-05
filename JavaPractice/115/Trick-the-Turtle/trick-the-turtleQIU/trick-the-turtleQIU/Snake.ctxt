@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Act\ -\ do\ whatever\ the\ Snake\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n\ a\ snake\ moves\ at\ 5\ and\ turns\ randomly.\r\n
+comment1.params=
+comment1.target=void\ tryToEatTurtle()
+comment1.text=\r\n\ the\ function\ of\ how\ a\ snake\ eats\ a\ turtle.\ And\ the\ game\ will\ end\ when\ a\ turtle\ dies.\r\n
+numComments=2

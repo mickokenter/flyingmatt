@@ -1,0 +1,72 @@
+Design by Xiaqin Qiu:
+
+Classes needed to create: 3 classes altogether
+class Dice, class Rule, class Elimination.
+
+In class Dice: (for Dice running to generate 2 random numbers)
+import java.util.Random for random numbers;
+default constructor is necessary; use seta() and setb() methods to assgin the 
+construct a random constructor;
+Attributes are:(2)
+int a; for number assignment 1
+int b; for number assignment 2
+Methods are:(4)
+void seta(); for randoming a number from 1 to 6 and assign it to a
+void setb(); for randoming a number from 1 to 6 and assign it to b
+int geta(); to return a
+int getb(); to return b
+String toString(); to 
+
+
+
+In class Rule: (for all the running rules to the game)
+non-default constructor is necessary; 4 inputs as int a, int b, int s, String input / and use initiate(), seta(a), setb(b), sets(s), setInput(input) method to assign the values
+Attributes are:
+int a; for dice 1's number
+int b; for dice 2's number
+int s; for dices' sum
+int score; for score calculated
+int[] tiles; int array for tiles' numbers
+String[] sign; string array for sign of tiles
+String input; for inputing a character
+boolean status; for loop1's boolean status
+boolean inputStatus; for loop2's input character's validation
+Methods are:
+void letsPlay(); check whether the numbers are qualified as whether they are equal or occuipied and decides whether let the User to input another character, and assigns the sign for the valid numbers.
+void initiate(); for initiating the tiles[i] and sign[i]
+void quit(); close the loops and calculate the score, and show() the last Play result
+void tryAgain(); for setting the inputStatus to keep on the loop2 and give the "Try again." words
+void show(); for show the tables of tiles[i] and sign[i] and some align marks
+boolean mark(int m); for judging whether a, b, s are qualified and give the true or false result
+String toString(); for print out the score (if someone wants to print the class in addition, show the score only; As all the things have been already printed out)
+
+In class Elimination: (the main method to achieve the running/playing)
+import java.util.Scanner for input;
+Main method;
+construct a Rule to start runing
+
+for setting up the loop1 to roll the dices and the procedures again and agin until User pressing Q(Quit), and owns an inside loop2 for check whether the input character is qualified and decides whether let the User to input another character, and assigns the sign for the valid numbers.
+
+
+Collaboration:
+class Rule and class Dice;
+
+Composite:
+Elimination has a relationship of Rule;
+Elimination has a relationship of Dice;
+
+
+Test cases:
+TEST CASE						OUTPUT					TESTED?
+Whether the Dice gives the right numbers		1~6 each number.			yes
+The input characters validation				both lower case & upper case of v/s/q	yes
+							are valid, and other input are invalid.	
+Whether the align is right				right.					yes
+Whether 2 same numbers for Value can be accepted	no.					yes
+After input v/s, whether the valid number cross off	cross off the right ones.		yes
+the dots
+If the number already occupied, new dice number tells	Try again.				yes
+"Try again."
+Whether the input character does the correct things	v for value, s for sum, q for quit.	yes
+Whether the last show is correct			12 numbers, correct crosses, score	yes
+Whether the score is right				sum for all the dots' numbers		yes

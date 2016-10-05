@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_686e6c606b0520f8e07fa72ef99d6c5fff4c186d\classes.dex" />
+    </item>
+    <item
+        jar="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_d8b09e9307d88c2025494893b13c8e9d2a9f57c2\classes.dex" />
+    </item>
+    <item
+        jar="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_1f8a17f50333099bb052470af34dcaadbbe9cce0\classes.dex" />
+    </item>
+    <item
+        jar="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="70e89f0671f4885d84c52809e61e5c4f67caa9fc">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8557f0f262bc175cc6d04b23046c987990ebca06\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_d05b53da2e90e2278d5a9e05342f9f1024b8d87d\classes.dex" />
+    </item>
+    <item
+        jar="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_9ba3b3e1f7cd5e80332ede242d5a62a5e62444a4\classes.dex" />
+    </item>
+    <item
+        jar="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.4.0_9742f7ac4f607857b3d073ccc7ea51816a8b7567\classes.dex" />
+    </item>
+    <item
+        jar="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="af24983ce2f7471e20769b370a377d13accfe9a7">
+        <dex dex="D:\OneDrive\AndroidProjects\AndroidGooglePlusLoginExample1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d5ca669416cdcfe70c27bb2f554f0a82672fa42c\classes.dex" />
+    </item>
+
+</items>

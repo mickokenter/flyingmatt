@@ -1,0 +1,103 @@
+
+BASED ON DATA FILE data.txt:
+
+Q:2,-1,-0.00000003
+Q:2,-3,+0.00000003
+P:P1,0,-2
+P:P2,2,-2
+P:P3,-2,-2
+
+
+
+SAMPLE OUTPUT:
+
+DATA FILEC:\CS116\SPRING2014\Project\ProjectSolution>java CalculationsOfFields
+The magnitude of electric field at point: P1 due to charge point #: 1 is -53.94
+the point coordinates are: 0 -2
+The charge is: -3.0E-8
+The charge coordinates are: 2 -1
+cosine of the angle= -0.8944271909999159
+The value of the x component of the Electric field at point: P1 due to charge point #: 1 is 48.25
+sine of the angle= -0.4472135954999579
+The value of the y component of the Electric field at point: P1 due to charge point #: 1 is 24.12
+The direction of the x-component is Positive and the direction of the y component is Positive
+The magnitude of electric field at point: P1 due to charge point #: 2 is 53.94
+the point coordinates are: 0 -2
+The charge is: 3.0E-8
+The charge coordinates are: 2 -3
+cosine of the angle= -0.8944271909999159
+The value of the x component of the Electric field at point: P1 due to charge point #: 2 is -48.25
+sine of the angle= 0.4472135954999579
+The value of the y component of the Electric field at point: P1 due to charge point #: 2 is 24.12
+The direction of the x-component is Negative and the direction of the y component is Positive
+The magnitude of the resultant field is: 48.24 for point: P1
+--------------NEXT POINT------------------------------
+The magnitude of electric field at point: P2 due to charge point #: 1 is -269.7
+the point coordinates are: 2 -2
+The charge is: -3.0E-8
+The charge coordinates are: 2 -1
+cosine of the angle= 0.0
+The value of the x component of the Electric field at point: P2 due to charge point #: 1 is -0.0
+sine of the angle= -1.0
+The value of the y component of the Electric field at point: P2 due to charge point #: 1 is 269.7
+The direction of the x-component is No direction and the direction of the y component is Positive
+The magnitude of electric field at point: P2 due to charge point #: 2 is 269.7
+the point coordinates are: 2 -2
+The charge is: 3.0E-8
+The charge coordinates are: 2 -3
+cosine of the angle= 0.0
+The value of the x component of the Electric field at point: P2 due to charge point #: 2 is 0.0
+sine of the angle= 1.0
+The value of the y component of the Electric field at point: P2 due to charge point #: 2 is 269.7
+The direction of the x-component is No direction and the direction of the y component is Positive
+The magnitude of the resultant field is: 539.4 for point: P2
+--------------NEXT POINT------------------------------
+The magnitude of electric field at point: P3 due to charge point #: 1 is -15.86
+the point coordinates are: -2 -2
+The charge is: -3.0E-8
+The charge coordinates are: 2 -1
+cosine of the angle= -0.9701425001453319
+The value of the x component of the Electric field at point: P3 due to charge point #: 1 is 15.39
+sine of the angle= -0.24253562503633297
+The value of the y component of the Electric field at point: P3 due to charge point #: 1 is 3.85
+The direction of the x-component is Positive and the direction of the y component is Positive
+The magnitude of electric field at point: P3 due to charge point #: 2 is 15.86
+the point coordinates are: -2 -2
+The charge is: 3.0E-8
+The charge coordinates are: 2 -3
+cosine of the angle= -0.9701425001453319
+The value of the x component of the Electric field at point: P3 due to charge point #: 2 is -15.39
+sine of the angle= 0.24253562503633297
+The value of the y component of the Electric field at point: P3 due to charge point #: 2 is 3.85
+The direction of the x-component is Negative and the direction of the y component is Positive
+The magnitude of the resultant field is: 7.7 for point: P3
+--------------NEXT POINT------------------------------
+-------------VALUES BEFORE WRITTEN IN .SER FILE-----------------------------------------------
+The x coordinate is x= 0 The y coordinate is y= -2 The point is: P1
+The individual fields from each charge are:
+   -53.94 53.94
+The ResultantField is: 48.24
+The x coordinate is x= 2 The y coordinate is y= -2 The point is: P2
+The individual fields from each charge are:
+   -269.7 269.7
+The ResultantField is: 539.4
+The x coordinate is x= -2 The y coordinate is y= -2 The point is: P3
+The individual fields from each charge are:
+   -15.86 15.86
+The ResultantField is: 7.7
+Do you want to have the .ser binary coded file read?
+yes
+null
+------------------------DATA READ FROM .ser FILE
+The x coordinate is x= 0 The y coordinate is y= -2 The point is: P1
+The individual fields from each charge are:
+   -53.94 53.94
+The ResultantField is: 48.24
+The x coordinate is x= 2 The y coordinate is y= -2 The point is: P2
+The individual fields from each charge are:
+   -269.7 269.7
+The ResultantField is: 539.4
+The x coordinate is x= -2 The y coordinate is y= -2 The point is: P3
+The individual fields from each charge are:
+   -15.86 15.86
+The ResultantField is: 7.7

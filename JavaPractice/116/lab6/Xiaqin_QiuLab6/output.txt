@@ -1,0 +1,4 @@
+The name of the shape is: cube The length is 1000.0 And the parameter s for is: area
+The area drawing cost for an Architect with score <600 is 0
+The name of the shape is: sphereThe radius is 45.0 And the parameter s for is: volume
+The volume drawing cost for an Architect with score<600 is 0

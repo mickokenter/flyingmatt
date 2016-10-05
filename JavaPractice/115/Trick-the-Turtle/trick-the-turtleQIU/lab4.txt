@@ -1,0 +1,27 @@
+1
+A.
+MadamI'mAdam
+B.
+a. if-else
+There's a certain value if it's true and a certain value for false.
+b. if
+Only work when it's true, which is over 40 hours, and response nothing for false.
+c. if
+Only work when the value is negative.
+d. if-else
+True for a certain value and false for another certain value.
+ 
+2
+A.
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+B.
+6

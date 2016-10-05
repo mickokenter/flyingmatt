@@ -1,0 +1,42 @@
+bnb = BernoulliNB()
+        logistic = LogisticRegression()
+        svc = SVC(kernel='poly',degree=4,probability=True,random_state=0)
+        
+        _excellent_index = -1
+        clfs = [bnb, logistic, svc]
+        performances = [0.0, 0.0, 0.0]
+        for i in range(len(clfs)):
+            clfs[i].fit(X_train, y_train)
+            if clfs[i].classes_[0] == 'Excellent':
+                _excellent_index = 0
+            else:
+                _excellent_index = 1
+            num_products = X_val.shape[0]
+            
+            error = 0
+            
+            for p in range(num_products):
+                prob = clfs[i].predict_proba(X_val[p])[0][_excellent_index]
+                if y_val[p] == "Excellent":
+                    if prob < 0.51:
+                        error += 1
+                else:
+                    if prob >= 0.51:
+                        error += 1
+                                
+            performances[i] = error
+            
+        best_index = 0
+        best_performance = performances[0]
+        i = 1
+        for i in range(len(performances)):
+            if performances[i] < best_performance:
+                best_performance = performances[i]
+                best_index = i;
+        
+        if best_index == 0:
+            return BernoulliNB()
+        elif best_index == 1:
+            return LogisticRegression()
+        else:
+            return SVC(kernel='poly',degree=4,probability=True,random_state=0)

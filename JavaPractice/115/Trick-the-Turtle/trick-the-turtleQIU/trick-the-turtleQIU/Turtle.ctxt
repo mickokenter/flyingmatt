@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=counter
+comment0.target=Turtle(Counter)
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ the\ Turtle's\ method\ to\ act\ and\ how\ the\ game\ ends.\ When\ the\ point\ is\ up\ to\ 15,\ game\ ends.\r\n
+comment2.params=
+comment2.target=int\ getMoveDistance()
+comment2.text=\r\n\ if\ lettuce\ are\ eaten\ by\ the\ turtle\ up\ to\ 11,\ the\ turtle\ moves\ slower\r\n
+comment3.params=
+comment3.target=void\ tryToEatLettuce()
+comment3.text=\r\n\ function\ which\ the\ turtle\ meets\ a\ lettuce\ and\ eat\ it.\ And\ when\ the\ amount\ is\ up\ to\ a\ certain\ number(5),\ a\ third\ snake\ \r\n\ will\ appear\ to\ threaten\ the\ turtle.\ The\ third\ snake\ will\ appear\ outside\ the\ square\ with\ width\ of\ 200pixels\ and\ the\ center\ is\ the\ Turtle.\ \r\n\ When\ the\ turtle\ is\ near\ the\ edge\ of\ the\ world,\ the\ snake\ will\ appear\ outside\ the\ square\ or\ on\ the\ edge.\ The\ snake\ will\ face\ to\ any\r\n\ sides.\r\n
+comment4.params=
+comment4.target=void\ tryToEatBug()
+comment4.text=\r\n\ the\ function\ of\ trying\ to\ eat\ the\ bug.\ the\ turtle\ has\ to\ bite\ the\ bug\ for\ 8\ times\ to\ eliminate\ it.\ then\ the\ turtle\ gets\ 5\ points.\r\n
+numComments=5

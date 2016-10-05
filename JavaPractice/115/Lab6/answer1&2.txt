@@ -1,0 +1,12 @@
+1. 
+Class: Transcript class
+Attribute: name, GPA, credit hours, grade points
+method: GPA calculated by summing credit hours*grade points then devided by total credit hours.
+
+2.
+Get a volume of the sink.
+(1) test whether the flow water is greater than the drain rate of the water, which will return the time of the water overflow the sink. This is the method to determined whether it can calculate the time.
+(2) test the flow water whether it is less than the drain rate of the water, which will return the Inter.max_value which will be interpreted as infinity. This test is to determine whether the method can tell that the time is infinity and whether it can print it out or not.
+(3) test the flow water whether is equal to the drain rate of the water, and it will return the Inter.max_value which will be interpreted as infinity. This test is to test whether the method can tell that the time is infinity and whether it can print it out or not.
+(4) test the flow water whether it's 0 while the drain rate of the water can either be 0 or not. it will return the Inter.max_value which will be interpreted as infinity. This test is to test whether the method can tell that the time is infinity and whether it can print it out or not.
+Then change the volume of sink and then repeat the experiments.

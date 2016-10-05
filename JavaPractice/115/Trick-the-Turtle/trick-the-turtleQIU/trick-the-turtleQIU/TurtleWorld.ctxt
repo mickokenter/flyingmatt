@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TurtleWorld()
+comment0.text=\r\n\ Create\ the\ turtle\ world.\ Our\ world\ has\ a\ size\ \r\n\ of\ 600x480\ cells,\ where\ every\ cell\ is\ just\ 1\ pixel.\r\n
+comment1.params=
+comment1.target=void\ prepare()
+comment1.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\r\n\ objects\ and\ add\ them\ to\ the\ world.\r\n\ 2\ snakes\ will\ appear\ in\ the\ left\ section\ randomly\ and\ face\ to\ the\ left.\r\n\ 1\ bug\ will\ appear\ randomly\ in\ the\ whole\ world\ and\ will\ face\ to\ any\ angles.\r\n\ the\ turtle\ will\ appear\ on\ the\ certain\ point\ and\ face\ to\ right.\r\n
+numComments=2

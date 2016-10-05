@@ -1,0 +1,10 @@
+Engineer, John Eng1,12345,1000.00,10
+Manager, Jim Man1,23451,1500.00,500.00
+Manager, Jim Man2,34512,2000.00,100.00
+AdministrativePersonnel, Helen Adm1,45123,20.0,40.0
+Engineer, Maria Eng2,51234,1200.00,12
+Manager, Jim Man3,23456,1200.00,600.00
+AdministrativePersonnel, John Doe1,34562,15.0,30.0
+Engineer, Mary Eng3,45612,2000.00,20
+AdministrativePersonnel,Nick Doe2,56234,22.0,45.0
+Manager, Ann Man4,62345,2300.00,400.00

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_spot"
+            android:title="Find a Spot"
+            android:icon="@drawable/ic_spot"
+            >
+        </item>
+        <item
+            android:id="@+id/ic_reservation"
+            android:title="My Reservations"
+            android:icon="@drawable/ic_reservation">
+        </item>
+        <item
+            android:id="@+id/ic_invite"
+            android:title="Invite Friends"
+            android:icon="@drawable/ic_invite">
+        </item>
+        <item
+            android:id="@+id/ic_settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings">
+        </item>
+        <item
+            android:id="@+id/ic_action_help"
+            android:title="Help"
+            android:icon="@drawable/ic_help">
+        </item>
+    </group>
+</menu>

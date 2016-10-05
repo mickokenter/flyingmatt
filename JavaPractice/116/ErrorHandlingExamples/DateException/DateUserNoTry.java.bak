@@ -1,0 +1,12 @@
+public class DateUserNoTry
+{
+	public static void main(String[] args) 
+	{
+		
+		
+			DateClassNoThrow dc=new DateClassNoThrow();
+			String date=dc.setDate(20, 13, 2011);
+			System.out.println(date);
+		
+	}
+}

@@ -1,0 +1,46 @@
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.exe.config
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.exe
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.pdb
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.csprojResolveAssemblyReference.cache
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\MainWindow.g.cs
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\App.g.cs
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage_MarkupCompile.cache
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage_MarkupCompile.lref
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\MainWindow.baml
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.g.resources
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.Properties.Resources.resources
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.csproj.GenerateResource.Cache
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.exe
+H:\Downloads\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.pdb
+C:\Users\kente\Desktop\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.exe.config
+C:\Users\kente\Desktop\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.exe
+C:\Users\kente\Desktop\Retrieve Bing Maps image that fits a bounding box\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.pdb
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.exe.config
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.exe
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.pdb
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.exe
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.pdb
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.csprojResolveAssemblyReference.cache
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\MainWindow.g.cs
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\App.g.cs
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage_MarkupCompile.cache
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage_MarkupCompile.lref
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\MainWindow.baml
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.g.resources
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.Properties.Resources.resources
+E:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.csproj.GenerateResource.Cache
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.exe.config
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.exe
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.pdb
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.exe
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsBoundigBoxImage.pdb
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.csprojResolveAssemblyReference.cache
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\MainWindow.g.cs
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\App.g.cs
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage_MarkupCompile.cache
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage_MarkupCompile.lref
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\MainWindow.baml
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.g.resources
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.Properties.Resources.resources
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\obj\Debug\BingMapsBoundigBoxImage.csproj.GenerateResource.Cache
+D:\OneDrive\WindowsProjects\BingMapsDownloaderWithBondingBox\C#\BingMapsBoundigBoxImage\bin\Debug\BingMapsDownloaderWithBoundigBox.exe.config

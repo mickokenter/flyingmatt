@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\OneDrive\\AndroidProjects\\AndroidNotificationBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ninja.png",
+        "source": "E:\\OneDrive\\AndroidProjects\\AndroidNotificationBar\\app\\src\\main\\res\\drawable-hdpi\\ninja.png"
+    },
+    {
+        "merged": "E:\\OneDrive\\AndroidProjects\\AndroidNotificationBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\OneDrive\\AndroidProjects\\AndroidNotificationBar\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

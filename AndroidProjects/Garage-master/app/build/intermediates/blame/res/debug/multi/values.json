@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "E:\\OneDrive\\AndroidProjects\\Garage-master\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "E:\\OneDrive\\AndroidProjects\\Garage-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 130,
+                        "endColumn": 43,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 48,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "E:\\OneDrive\\AndroidProjects\\Garage-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 215,
+                        "endColumn": 44,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 51,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "E:\\OneDrive\\AndroidProjects\\Garage-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 309,
+                        "endColumn": 47,
+                        "endOffset": 356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 74,
+                    "endOffset": 270
+                },
+                "from": {
+                    "file": "E:\\OneDrive\\AndroidProjects\\Garage-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 74,
+                        "endOffset": 125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 275,
+                    "endColumn": 52,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "E:\\OneDrive\\AndroidProjects\\Garage-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 260,
+                        "endColumn": 48,
+                        "endOffset": 308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endColumn": 48,
+                    "endOffset": 372
+                },
+                "from": {
+                    "file": "E:\\OneDrive\\AndroidProjects\\Garage-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 170,
+                        "endColumn": 44,
+                        "endOffset": 214
+                    }
+                }
+            }
+        ]
+    }
+]

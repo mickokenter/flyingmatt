@@ -1,0 +1,20 @@
+The name of the shape is: sphereThe radius is 2.0 And the parameter s for is: area
+The area drawing cost for an Architect with score <600 is 2010.62
+The area drawing cost for an Other with score <600 is 3015.93
+The area drawing cost for an Architect with score >=600 is 1005.31
+The area  drawing cost for an Other with score >=600 is 2010.62
+The name of the shape is: cube The length is 10.0 And the parameter s for is: volume
+The volume drawing cost for an Architect with score <600 is 40000
+The volume drawing cost for an Other with score <600 is 60000
+The volume drawing cost for an Architect with score >=600 is 20000
+The volume drawing cost for an Other with score>=600 is 50000
+The name of the shape is: sphereThe radius is 2.0 And the parameter s for is: volume
+The volume drawing cost for an Architect with score<600 is 2010.62
+The volume drawing cost for an Other with score <600 is 3015.93
+The volume drawing cost for an Architect with score >=600 is 1005.31
+The volume drawing cost for an Other with score>=600 is 2513.27
+The name of the shape is: cube The length is 10.0 And the parameter s for is: area
+The area drawing cost for an Architect with score <600 is 12000
+The area drawing cost for an Other with score <600 is 18000
+The area area drawing cost for an Architect withscore >=600 is 6000
+The area drawing cost for an Other with score >=600 is 12000

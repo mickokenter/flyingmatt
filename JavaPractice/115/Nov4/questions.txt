@@ -1,0 +1,46 @@
+See code attached, try to add the logic to tell the user too high or too
+low.
+
+
+Write a program that plays a guessing game.  The game will pick a random
+secret number between (or equal to) 2 set values (a low limit and high
+limit) and prompt the user to guess that number until he or she guesses
+correctly. On each wrong guess, the game will provide feedback about
+whether the user guessed too high or too low. Along the way, the program
+will keep track of how many guesses the user has made so far, and will
+tell them the total at the end.  Here are two example runs:
+
+What is the low limit and high limit for the secret number? 10 100
+Please try to guess my number. 50
+Your guess (50) was too low.
+Please try to guess my number. 70
+Your guess (70) was too low.
+Please try to guess my number. 85
+Your guess (85) was too low.
+Please try to guess my number. 95
+Your guess (95) was too high.
+Please try to guess my number. 90
+Your guess (90) was too high.
+Please try to guess my number. 88
+Your guess (88) was too high.
+Please try to guess my number. 87
+Your guess (87) was too high.
+Please try to guess my number. 86
+Correct!  You got the answer in 8 guesses.
+
+
+What is the low limit and high limit for the secret number? -50 50
+Please try to guess my number. 0
+Your guess (0) was too low.
+Please try to guess my number. 40
+Your guess (40) was too high.
+Please try to guess my number. 30
+Your guess (30) was too high.
+Please try to guess my number. 20
+Your guess (20) was too high.
+Please try to guess my number. 10
+Your guess (10) was too low.
+Please try to guess my number. 15
+Your guess (15) was too low.
+Please try to guess my number. 16
+Correct!  You got the answer in 7 guesses.

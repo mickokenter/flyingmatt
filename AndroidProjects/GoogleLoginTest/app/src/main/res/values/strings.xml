@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GoogleLoginTest</string>
+    <string name="logout">Logout</string>
+    <string name="loginText">Please login with your Google Account</string>
+</resources>

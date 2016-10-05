@@ -1,0 +1,39 @@
+Python 2.7.10 (default, May 23 2015, 09:40:32) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+--------------------------------------------------
+FAIR MARKET
+--------------------------------------------------
+Agent_hp:		$145,705.73
+Agent_ratio_0.75:		$100,331.53
+Agent_ratio_0.50:		$129,872.56
+Agent_ratio_0.25:		$104,427.96
+Agent_buy_all:		$16,343.97
+Agent_agent_xqiu12:		$166,460.80
+
+--------------------------------------------------
+JUNK YARD
+--------------------------------------------------
+Agent_hp:		$60,904.02
+Agent_ratio_0.75:		$-12,259.67
+Agent_ratio_0.50:		$59,597.31
+Agent_ratio_0.25:		$61,514.17
+Agent_buy_all:		$-120,259.61
+Agent_agent_xqiu12:		$91,632.10
+
+--------------------------------------------------
+FANCY MARKET
+--------------------------------------------------
+Agent_hp:		$228,795.37
+Agent_ratio_0.75:		$232,652.56
+Agent_ratio_0.50:		$218,991.42
+Agent_ratio_0.25:		$133,836.76
+Agent_buy_all:		$183,475.16
+Agent_agent_xqiu12:		$252,298.29
+>>> 
+
+
+
+a. will_buy strategy:
+according to the sample results from other agents, as the agent can get the decision by the probablity, I'm dividing the probablity at the point of 0.5 (<0.49, >0.5). And by testing several results at the point, find a better point which are 0.8 and 0.2. The results is much better than other agents.

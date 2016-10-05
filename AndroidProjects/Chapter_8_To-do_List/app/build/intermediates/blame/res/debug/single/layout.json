@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\OneDrive\\AndroidProjects\\Chapter_8_To-do_List\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\OneDrive\\AndroidProjects\\Chapter_8_To-do_List\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\OneDrive\\AndroidProjects\\Chapter_8_To-do_List\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todolist_item.xml",
+        "source": "D:\\OneDrive\\AndroidProjects\\Chapter_8_To-do_List\\app\\src\\main\\res\\layout\\todolist_item.xml"
+    },
+    {
+        "merged": "D:\\OneDrive\\AndroidProjects\\Chapter_8_To-do_List\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_item_fragment.xml",
+        "source": "D:\\OneDrive\\AndroidProjects\\Chapter_8_To-do_List\\app\\src\\main\\res\\layout\\new_item_fragment.xml"
+    }
+]

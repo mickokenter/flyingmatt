@@ -1,0 +1,8 @@
+class InvalidDateException extends Exception 
+{
+	public InvalidDateException()
+	{
+		super();
+		System.out.println("A wrong date was format was used");
+	}
+}

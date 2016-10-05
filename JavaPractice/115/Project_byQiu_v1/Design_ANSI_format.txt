@@ -1,0 +1,65 @@
+Design by Xiaqin Qiu:
+
+Classes needed to create: 3 classes altogether
+class Dice, class Rule, class Elimination.
+
+In class Dice: (for Dice running to generate 2 random numbers)
+import java.util.Random for random numbers;
+default constructor is necessary; use a() and b() methods
+construct a random constructor;
+2 Methods:
+int a(), int b();
+a() and b() are both methods for randoming number from 1~6 each separately;
+no attribute is needed.
+
+
+In class Rule: (for all the running rules to the game)
+import java.util.Scanner for input;
+default constructor is necessary; use letsPlay() and initiate() methods
+construct a scanner:scan;
+Attributes are:
+int a; for dice 1
+int b; for dice 2
+int s; for dices' sum
+int score; for score calculated
+int[] tiles; int array for tiles' numbers
+String[] sign; string array for sign of tiles
+String input; for inputing a character
+boolean status; for loop1's boolean status
+boolean inputStatus; for loop2's input character's validation
+Methods are:
+void letsPlay(); for setting up the loop1 to roll the dices and the procedures again and agin until User pressing Q(Quit), and owns an inside loop2 for check whether the input character is qualified and decides whether let the User to input another character, and assigns the sign for the valid numbers.
+void initiate(); for initiating the tiles[i] and sign[i]
+void quit(); close the loops and calculate the score, and show() the last Play result
+void tryAgain(); for setting the inputStatus to keep on the loop2 and give the "Try again." words
+void show(); for show the tables of tiles[i] and sign[i] and some align marks
+boolean mark(int m); for judging whether a, b, s are qualified and give the true or false result
+String toString(); for print out the score (if someone wants to print the class in addition, show the score only; As all the things have been already printed out)
+
+In class Elimination: (the main method to achieve the running/playing)
+Main method;
+construct a Rule to start runing
+
+
+Collaboration:
+class Rule and class Dice;
+
+Inheritance:
+Rule is a relationship of Elimination;
+Dice is a relationship of Elimination;
+
+
+Test cases:
+TEST CASE						OUTPUT					TESTED?
+Whether the Dice gives the right numbers		1~6 each number.			yes
+The input characters validation				both lower case & upper case of v/s/q	yes
+							are valid, and other input are invalid.	
+Whether the align is right				right.					yes
+Whether 2 same numbers for Value can be accepted	no.					yes
+After input v/s, whether the valid number cross off	cross off the right ones.		yes
+the dots
+If the number already occupied, new dice number tells	Try again.				yes
+"Try again."
+Whether the input character does the correct things	v for value, s for sum, q for quit.	yes
+Whether the last show is correct			12 numbers, correct crosses, score	yes
+Whether the score is right				sum for all the dots' numbers		yes

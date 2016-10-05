@@ -1,0 +1,10 @@
+1.7,3,George,GlenEllynChevy,Litters_1Point5
+2.2,3,Maria,ChicagoFord,Litters_2Point4
+4.3,2,Melina,WilmetteChrysler,Litters_3Point0
+4.0,5,John,SouthMercedes,Litters_4Point0
+6.3,6,Henry,WestBMW,Litters_6Point0
+2.5,7,Stephania,ChicagoFord,Litters_1Point5
+5.3,3,Helen,WilmetteChrysler,Litters_2Point4
+2.5,9,Robert,GlenEllynChevy,Litters_3Point0
+1.8,5,Clint,WestBMW,Litters_4Point0
+2.2,1,Maria,ChicagoFord,Litters_6Point0

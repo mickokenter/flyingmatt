@@ -1,0 +1,33 @@
+Grade: 45.00/50.00
+
+1 Deduction(s):
+
+--------------
+#1: 5.00 points
+Failing test: test_query_to_vector_unknown: 
+        @points=5
+        
+Traceback (most recent call last):
+  File "assignments-sol/a1/a1_test.py", line 86, in test_query_to_vector_unknown
+    vec = idx.query_to_vector(['a', 'b', 'c', 'd'])
+  File "students/mickokenter/a1/searcher.py", line 158, in query_to_vector
+    idf[term] = math.log10(len(self.doc_lengths) / self.doc_freqs[term])
+KeyError: 'd'
+
+source:
+    def test_query_to_vector_unknown(self):
+         """
+         @points=5
+         """
+         idx = Index()
+         idx.doc_freqs = {'a': 10, 'b': 100, 'c': 1000}
+         idx.documents = [1] * 1000
+         idx.index = {'a': range(10), 'b': range(100), 'c': range(1000)}
+         idx.doc_lengths = dict((i, 1) for i in range(1000))
+         vec = idx.query_to_vector(['a', 'b', 'c', 'd'])
+         self.assertAlmostEqual(vec['a'], 2.0, 1)
+         self.assertAlmostEqual(vec['b'], 1.0, 1)
+         self.assertAlmostEqual(vec['c'], 0.0, 1)
+         self.assertFalse('d' in vec)
+--------------
+

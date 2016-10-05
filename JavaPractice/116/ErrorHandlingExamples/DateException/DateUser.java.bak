@@ -1,0 +1,16 @@
+public class DateUser
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+			DateClass dc=new DateClass();
+			String date=dc.setDate(20, 13, 2011);
+			System.out.println(date);
+		}
+		catch(InvalidDateException ide)
+		{
+		  System.out.println(ide);
+		}
+	}
+}
